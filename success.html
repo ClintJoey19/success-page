@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://firebasestorage.googleapis.com/v0/b/aretex-47c6e.appspot.com/o/success.svg?alt=media&token=a3c2666d-3a24-4a96-950b-c72f510d6e88"
+    />
+    <title>Sign Up Successful</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#32449c",
+              secondary: "#f28f33",
+              secondaryLight: "#fdf2e7",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <section class="w-full h-screen flex justify-center items-center">
+      <div class="max-w-[500px] flex flex-col items-center gap-5">
+        <div class="flex items-center gap-5">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/aretex-47c6e.appspot.com/o/check.png?alt=media&token=5f2b74b9-cc6c-40de-b844-10def7e29852"
+            alt="check"
+            class="w-[48px]"
+          />
+          <h1 class="text-5xl text-primary font-extrabold">Success!</h1>
+        </div>
+
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/aretex-47c6e.appspot.com/o/success.svg?alt=media&token=a3c2666d-3a24-4a96-950b-c72f510d6e88"
+          alt="success-img"
+          class="w-full"
+        />
+        <div
+          class="px-2 py-4 border-secondary border-2 bg-secondaryLight rounded"
+        >
+          <p class="text-center text-secondary font-semibold text-lg">
+            Stay tuned for Aretex's anniversary as we reveal the lucky winners!
+          </p>
+        </div>
+        <span class="text-secondary text-xl font-bold">THANK YOU!!!</span>
+      </div>
+    </section>
+  </body>
+</html>
